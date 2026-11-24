@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">وِرْد</string>
+    <string name="title_activity_main">وِرْد</string>
+    <string name="package_name">com.waleedsebai.quran</string>
+    <string name="custom_url_scheme">com.waleedsebai.quran</string>
+</resources>

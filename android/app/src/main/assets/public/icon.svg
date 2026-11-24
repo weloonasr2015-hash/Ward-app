@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="34%" cy="26%" r="80%">
+      <stop offset="0%" stop-color="#3e5b40"/>
+      <stop offset="55%" stop-color="#20332a"/>
+      <stop offset="100%" stop-color="#0b1410"/>
+    </radialGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#fbf6e8"/>
+      <stop offset="55%" stop-color="#efe3c4"/>
+      <stop offset="100%" stop-color="#cbb17a"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#cbb17a"/>
+      <stop offset="50%" stop-color="#fbf6e8"/>
+      <stop offset="100%" stop-color="#a8853f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="#0b1410"/>
+  <circle cx="256" cy="256" r="232" fill="url(#bg)" stroke="url(#ring)" stroke-width="10"/>
+  <circle cx="256" cy="256" r="205" fill="none" stroke="#a8bf9c" stroke-opacity="0.35" stroke-width="4"/>
+  <circle cx="256" cy="256" r="184" fill="none" stroke="#d9ae5f" stroke-opacity="0.45" stroke-width="4" stroke-dasharray="6 14" stroke-linecap="round"/>
+
+  <!-- open Mushaf -->
+  <path d="M256 165 C221 143 174 138 138 148 L138 322 C174 312 221 317 256 338 C291 317 338 312 374 322 L374 148 C338 138 291 143 256 165 Z"
+        fill="url(#page)" stroke="#cbb17a" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M256 165 L256 338" stroke="#6b5b35" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
+  <g stroke="#6b5b35" stroke-opacity="0.4" stroke-width="7" stroke-linecap="round">
+    <path d="M168 190 h58"/><path d="M168 216 h58"/><path d="M168 242 h48"/><path d="M168 268 h58"/>
+    <path d="M286 190 h58"/><path d="M286 216 h58"/><path d="M296 242 h48"/><path d="M286 268 h58"/>
+  </g>
+  <circle cx="218" cy="294" r="7" fill="#6b5b35" fill-opacity="0.45"/>
+  <circle cx="294" cy="294" r="7" fill="#6b5b35" fill-opacity="0.45"/>
+
+  <!-- rehal stand -->
+  <path d="M160 347 L256 389 L352 347" fill="none" stroke="#d9ae5f" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+  <path d="M192 364 L256 391 L320 364" fill="none" stroke="#d9ae5f" stroke-width="7" stroke-opacity="0.55" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- golden star -->
+  <path d="M392 108 l12 25 25 12 -25 12 -12 25 -12 -25 -25 -12 25 -12z" fill="#d9ae5f"/>
+</svg>
