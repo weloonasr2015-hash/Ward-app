@@ -1,0 +1,55 @@
+{
+  "id": "./",
+  "name": "وِرْد | القرآن ومساعدك مسلم",
+  "short_name": "وِرْد",
+  "description": "وِرْد — مصحفك ومساعدك الذكي مُسلم: تلاوات، تفسير، أذكار، مواقيت صلاة وتذكيرات — يعمل بدون إنترنت",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#051014",
+  "theme_color": "#051014",
+  "categories": ["religion", "education", "books", "music"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "المصحف والتفسير",
+      "short_name": "المصحف",
+      "url": "./?tab=mushaf",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "مواقيت الصلاة",
+      "short_name": "المواقيت",
+      "url": "./?tab=prayer",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "أذكار الصباح والمساء",
+      "short_name": "الأذكار",
+      "url": "./?tab=adhkar",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
